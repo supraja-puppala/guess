@@ -6,7 +6,7 @@ var lives = 10;
 var message;
 
 $submitbutton.onclick() => {
-    let userinput = document.getElementById("number-input").Value;
+    let userinput = document.getElementById("number-input").nodeValue;
     lives--;
     if (userinput == guessnumber) {
         location.href = "./win";
