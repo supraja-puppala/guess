@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: yellow;
+    background-size: cover;
+
+}
+
+.container {
+    /*  background-color: black;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70vw;
+    height: 50%;
+    line-height: 2em;
+    page-break-after: 0 0.28px;*/
+    background-color: yellow;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 800px;
+    margin-top: 100px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 100px;
+
+
+}
+
+.logo {
+    font-size: 5em;
+    color: red;
+    width: 400px;
+    text-align: center;
+    height: 200px;
+}
+
+.button {
+    background-color: white;
+    margin: 100px 0;
+    border-radius: 40px;
+    padding: 18px 150px;
+    text-align: center;
+    width: 100px;
+}
+
+#number-input {
+    width=50px;
+    height: 2em;
+    background-color: tomato;
+    margin-top: 30px;
+}
+
+#submit {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+#text-lives {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 200px;
+    padding-top: 2px;
+}
+
+#message {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 200px;
+    padding-top: 2px;
+}
+
+}
